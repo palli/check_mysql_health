@@ -3,7 +3,7 @@
 Summary:	Nagios plugins to check the status of Mysql Servers
 Name:		nagios-plugins-mysql
 Version:	2.1.7
-Release:	1%{?dist}
+Release:	2%{?dist}
 License:	GPLv2+
 Group:		Applications/System
 URL:		http://labs.consol.de/lang/en/nagios/check_mysql_health/
@@ -40,5 +40,8 @@ rm -rf %{buildroot}
 %{_libdir}/nagios/plugins/check_mysql_health
 
 %changelog
+* Mon Mar 19 2012 Pall Sigurdsson <palli@opensource.is> 2.1.7-2
+- new package built with tito
+
 * Mon Mar 19 2012 Pall Sigurdsson <palli@opensource.is> 1.5.9.2-6
 - Initial packaging
