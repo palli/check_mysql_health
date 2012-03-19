@@ -10,7 +10,6 @@ URL:		http://labs.consol.de/lang/en/nagios/check_mysql_health/
 #Source1:	http://labs.consol.de/download/shinken-nagios-plugins/check_mysql_health-%{version}.tar.gz
 Source0:	http://labs.consol.de/download/shinken-nagios-plugins/nagios-plugins-mysql-%{version}.tar.gz
 Requires:	perl-Nagios-Plugin
-Requires:	perl-DBD-Sybase
 BuildRequires:	automake
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
